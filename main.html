@@ -7,8 +7,31 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
+	<form method="post">
+		<label for"name">Name</label>
+		<input id="name" required>
+		<label for="email">Email</label>
+		<input id="email" type="email" required>
+		<label for="gender">Gender</label>
+		<input type="radio" name="gender" id="gender_M" value="male" required>
+		<label for="gender_M">Male</label>
+		<input type="radio" name="gender" id="gender_F" value="female" required>
+		<label for="gender_F">Female</label>
+		<label for="laptop">Laptop</label>
+		<select id="laptop">
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
+		<label for="age">Age</label>
+		<input type="number" required>
+		<label for="dob">DOB</label>
+		<input id="dob">
+		<label for="password">Password</label>
+		<input type="password" id="password">
+		<button type="submit">Submit</button>
+	</form>
+	<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
